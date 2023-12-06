@@ -11308,7 +11308,27 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
-
+.field {
+  display: flex;
+  justify-content: space-between;
+  }
+table {
+    margin:auto;
+    width: 100%;
+}
+table th {
+    white-space: nowrap;
+    width: 100px;
+}
+ol {
+  width:500;
+  background: white;
+}
+.fi{
+  display: flex;
+  vertical-align: middle;  
+  text-align:center; 
+}
 .footer {
   text-align: center;
   font-size: 0.9rem;
